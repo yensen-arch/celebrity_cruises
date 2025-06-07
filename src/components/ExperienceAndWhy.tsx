@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Innovative Ship Design",
-  description: "Edge Series ships feature revolutionary Infinite Verandas and the Magic Carpet—a cantilevered platform offering stunning ocean views and versatile spaces.",
+  title: "Galapagos Expedition Fleet",
+  description: "Sail aboard custom-built luxury ships like Celebrity Flora, designed specifically for the Galapagos ecosystem.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Culinary Excellence",
-  description: "Savor globally inspired cuisine crafted by Michelin-starred chefs across multiple dining venues, including specialty restaurants like Tuscan Grille and Murano.",
+  title: "All-Inclusive Galapagos Experience",
+  description: "Fares cover excursions, drinks, Wi-Fi, tips, and naturalist guides for a seamless adventure.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Personalized Service",
-  description: "Enjoy attentive service with a nearly 2:1 guest-to-staff ratio, ensuring your needs are met with warmth and professionalism throughout your journey.",
+  title: "Expert-Led Enrichment",
+  description: "Travel with Galapagos-certified naturalists who offer insight into rare wildlife and geology.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Wellness and Relaxation",
-  description: "Unwind in the adults-only Solarium, indulge in spa treatments, or participate in fitness classes designed to rejuvenate your body and mind.",
+  title: "River Cruising Launch 2025",
+  description: "Celebrity expands into luxury river cruising in 2025 with elevated design and curated European itineraries.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Celebrity Cruises Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
